@@ -1,0 +1,148 @@
+//AHCM
+Module : LogIn 
+
+
+Field Name	 : User Name
+Format 	 : Textbox
+Business Rule	 : The field accepts min 3 characters and max 50 characters
+		  User name should be unique
+		
+
+Field Name	 : Password
+Format	 : Textbox
+Business Rule	 : The field accepts min 8 characters and max 20 characters
+		  Password should be unique and match with corresponding user name
+
+
+Field Name 	: Login		
+Format	 : button		
+Business Rule	: It should allow to login for correct username and password other wise should display 			   correct error message as ‘Username and Password are mandatory’ and for wrong 			   details ‘Invalid Credentials’
+
+
+
+Field Name 	: Forgot Password
+Format 	: Button
+Business Rule	: It should navigate to forgot password page when clicking on it
+
+
+
+
+Field Name 	: Employee Id
+Format 	: Textbox
+Business Rule	: This field should accept only correct employee id’s that are existed in the system
+		   Otherwise display respective error
+
+
+
+
+
+Field Name 	: Submit
+Format 	: Button
+Business Rule	: It should check and allow if details are correct when clicking on it.
+
+
+
+
+Field Name 	: Submit
+Format 	: Button
+Business Rule	: It should check and allow if details are correct when clicking on it.
+
+
+
+
+Field Name 	: Back to Login
+Format 	: Icon
+Business Rule	: This should redirect back to login when clicking on it.
+
+
+
+Field Name 	: Company Logo
+Format 	: Image
+Business Rule	: Should display company logo dynamically.
+
+
+Field Name 	: Resend Otp
+Format 	: Textlink
+Business Rule	: This should send OTP message again to the corresponding employee mobile number
+		  and display success message as ‘Otp has been sent to your mobile successfully’
+
+
+//Issues:
+
+1.Username:we should have min 3 and max 50 characters but it is accepting min 4 and max 8 characters
+
+2.Password:
+
+a.we should have min 8 and max 20 characters but it is accepting min 4 and max 10 characters
+b.password should be unique but here it is accepting for all usernames with same password
+
+3.Login:error message should be as ‘Username and Password are mandatory’ but it is shoing as ‘Username and Password are required’
+
+4.Forgot Password: It should be button but it is having link for Forgot Password 
+
+5.Employee Id:
+
+a.The Field name should br Employee Id but Its showing as Enter Employee Code
+b.It should accept correct employee id but it is accepting invalid Employee Id's 
+
+6.Submit: It should allow valid details but it is allowing for invalid details
+
+7.Submit:It is not allowing even after entering the correct details
+
+8.Back to Login :It should be icon but it is showing as link
+
+9.Company Logo:The image is not displaying.
+
+10.Resend Otp:
+It is not showing as ‘Otp has been sent to your mobile successfully’ 
+
+//feild-Useraname
+>FIXED
+
+feild-Password
+>ERROR
+ accepting below 8 char
+
+feild-Login
+>ERROR
+ error message should be shown as username and password are mandatory
+
+
+feild-Forgot password
+>ERROR
+ should be in button format not as link
+
+
+feild-Emplopyee Id
+>ERROR
+ 1.faild to show the message as invalid id accepting any name as id and sending OTP
+ 2.showing an error as Emp. Code should be more than 3 characters even after giving morethan 3 char
+
+
+feild-Submit
+>ERROR
+ processing even on incorrect details
+
+feild-Submit
+>ERROR
+ button is not working even after entering the details
+
+feild-Back to Login
+>ERROR
+ not an icon
+
+
+Feild-Company Logo
+>ERROR
+ Failed to display company logo
+
+
+feild-Resend Otp
+>ERROR
+ link is not working
+
+
+
+
+
+
