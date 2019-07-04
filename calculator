@@ -1,0 +1,13 @@
+//cal
+1.modulos operator was not functioning
+2.the calculated result should be in text box
+3.Both ce and c are functioning as same i.e.. to clear the data
+4.the entire history is deleting instead it should also have the selected data to be deleted
+5.M dropdown should be there
+//calc
+1.only selected history should be deleted
+2.mod operator is not working properly
+3.input text need a text area instead of plane space
+4.use of both C and CE are same didnt find any difference
+5.instead of word "history" use icon to represent history
+6.MR recalls only last entered value but its better to recall based on clicks
